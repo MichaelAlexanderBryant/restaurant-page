@@ -1,3 +1,3 @@
-import { initializeWebsite } from "./website";
+import { initializeWebsite } from "./modules/website";
 
 initializeWebsite();

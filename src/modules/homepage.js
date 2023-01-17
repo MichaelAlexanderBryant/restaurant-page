@@ -8,7 +8,7 @@ function addHeadline() {
     const headlineDiv = document.createElement("div");
     headlineDiv.textContent = "Cooking up your new burrito cravings";
     return headlineDiv;
-}
+};
 
 function loadHomepage() {
     const contentDiv = document.getElementById("content");

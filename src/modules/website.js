@@ -25,9 +25,9 @@ function addNavigation() {
         document.getElementById("content").textContent = '';
         loadMenu();
     });
-    home.textContent = "Home"
-    contact.textContent = "Contact"
-    menu.textContent = "Menu"
+    home.textContent = "Home";
+    contact.textContent = "Contact";
+    menu.textContent = "Menu";
     nav.appendChild(home);
     nav.appendChild(contact);
     nav.appendChild(menu);
