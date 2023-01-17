@@ -4,12 +4,14 @@ import { loadMenu } from "./menu";
 
 function addHeader() {
     const header = document.createElement("div");
+    header.id = "header";
     header.textContent = "Miguel's Burrito Shop";
     return header;
 };
 
 function addNavigation() {
     const nav = document.createElement("div");
+    nav.id = "navigation";
     const home = document.createElement("span");
     home.addEventListener("click", () => {
         document.getElementById("content").textContent = '';

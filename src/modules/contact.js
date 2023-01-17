@@ -1,6 +1,6 @@
 function addContactInfo() {
     const contactDiv = document.createElement("div");
-    contactDiv.textContent = "Miguel Bryant (760) 908-0133";
+    contactDiv.textContent = "Miguel Bryant (760) 867-5309";
     return contactDiv;
 };
 
