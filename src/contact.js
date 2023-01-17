@@ -4,9 +4,9 @@ function addContactInfo() {
     return contactDiv;
 };
 
-function initializeContact() {
+function loadContact() {
     const contentDiv = document.getElementById("content");
     contentDiv.appendChild(addContactInfo());
 };
 
-export {initializeContact};
+export {loadContact};

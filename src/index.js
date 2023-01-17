@@ -1,5 +1,3 @@
-import { initializeHomepage } from "./homepage";
-import { initializeContact } from "./contact";
-import { initializeMenu } from "./menu";
+import { initializeWebsite } from "./website";
 
-initializeHomepage();
+initializeWebsite();

@@ -4,9 +4,9 @@ function addMenu() {
     return menuDiv;
 };
 
-function initializeMenu() {
+function loadMenu() {
     const contentDiv = document.getElementById("content");
     contentDiv.appendChild(addMenu());
 };
 
-export {initializeMenu};
+export {loadMenu};

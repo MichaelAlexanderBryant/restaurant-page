@@ -1,9 +1,3 @@
-function addBanner() {
-    const bannerDiv = document.createElement("div");
-    bannerDiv.textContent = "Miguel's Burrito Shop";
-    return bannerDiv;
-};
-
 function addImage() {
     const restaurantPhoto = document.createElement("img");
     restaurantPhoto.src = "./img/photo.jpg";
@@ -16,11 +10,11 @@ function addHeadline() {
     return headlineDiv;
 }
 
-function initializeHomepage() {
+function loadHomepage() {
     const contentDiv = document.getElementById("content");
-    contentDiv.appendChild(addBanner());
+    contentDiv.textContent = '';
     contentDiv.appendChild(addImage());
     contentDiv.appendChild(addHeadline());
 };
 
-export {initializeHomepage};
+export {loadHomepage};
