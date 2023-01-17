@@ -6,6 +6,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family:'Courier New', Courier, monospace;
 }
 
 #header {
@@ -14,6 +15,7 @@ body {
     background-color: #617e3a;
     color: #fafcf4;
     font-size: 50px;
+    padding: 25px;
 }
 
 #navigation {
@@ -23,20 +25,27 @@ body {
     background-color: #995f27;
     color: white;
     font-size: 30px;
+    padding: 10px;
 }
 
 #content {
-    height: 100vh;
+    height: 650px;
+    width: 75%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content:space-around;
     align-items: center;
     color: white;
+    background-color: #94271b;
 }
 
-img {
+#burrito-image {
     height: 400px;
     width: auto;
-    justify-content: center;
-    align-items: center;
+    border-radius: 30px;
 }
+
+#headline {
+
+}
+
