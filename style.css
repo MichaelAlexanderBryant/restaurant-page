@@ -1,12 +1,13 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #692920;
+    height: 100%;
+    background-color:#cc8600;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 #header {
@@ -16,36 +17,99 @@ body {
     color: #fafcf4;
     font-size: 50px;
     padding: 25px;
+    font-weight: bold;
 }
 
 #navigation {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     background-color: #995f27;
     color: white;
-    font-size: 30px;
+    font-size: 25px;
+}
+
+span {
+    flex: 1;
     padding: 10px;
+    text-align: center;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+span:hover {
+    background-color:#7e4d1f;
+}
+
+span:active {
+    background-color:#3d250f;
 }
 
 #content {
-    height: 650px;
+    min-height: 100vh;
+    height: 100%;
     width: 75%;
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
+    justify-content:space-evenly;
     align-items: center;
     color: white;
     background-color: #94271b;
+    box-shadow: -60px 0px 100px -90px #000000, 60px 0px 100px -90px #000000;
+
 }
 
-#burrito-image {
-    height: 400px;
+#front-page-image {
+    height: 500px;
     width: auto;
-    border-radius: 30px;
+    box-shadow: -60px 0px 100px -90px #000000, 60px 0px 100px -90px #000000;
 }
 
 #headline {
-
+    text-align: center;
+    font-size: 25px;
+    padding-top: 30px;
 }
 
+#bio {
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+#bio, #headline {
+    width: 75%;
+}
+
+#contact {
+    background-color:#5f1912;
+    padding: 0px 30px 0px 30px;
+    border-radius: 30px;
+    color: white;
+    box-shadow: -60px 0px 100px -90px #000000, 60px 0px 100px -90px #000000;
+}
+
+#address, #phone, #hours {
+    padding: 30px;
+}
+
+#phone {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+#menu1, #menu2 {
+    height: auto;
+    width: 900px;
+}
+
+#menu1 { 
+    padding-top: 30px;
+    padding-bottom: 15px;
+    box-shadow: -60px 0px 100px -90px #000000, 60px 0px 100px -90px #000000;
+}
+
+#menu2 {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    box-shadow: -60px 0px 100px -90px #000000, 60px 0px 100px -90px #000000;
+ }
