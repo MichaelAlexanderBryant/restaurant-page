@@ -1,13 +1,18 @@
 function addMenu() {
-    const menuImg = document.createElement("img");
-    menuImg.id = "menu";
-    menuImg.src = "./img/menu.png";
-    return menuImg;
+    const menuImg1 = document.createElement("img");
+    menuImg1.id = "menu1";
+    menuImg1.src = "./img/menu1.jpg";
+    const menuImg2 = document.createElement("img");
+    menuImg2.id = "menu2";
+    menuImg2.src = "./img/menu2.jpg";
+    return [menuImg1, menuImg2];
 };
 
 function loadMenu() {
     const contentDiv = document.getElementById("content");
-    contentDiv.appendChild(addMenu());
+    console.log(addMenu())
+    contentDiv.appendChild(addMenu()[0]);
+    contentDiv.appendChild(addMenu()[1]);
 };
 
 export {loadMenu};
