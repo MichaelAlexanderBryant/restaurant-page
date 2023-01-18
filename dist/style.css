@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    height: 100vh;
     background-color: #692920;
     display: flex;
     flex-direction: column;
@@ -20,32 +21,54 @@ body {
 
 #navigation {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     background-color: #995f27;
     color: white;
     font-size: 30px;
+}
+
+span {
+    flex: 1;
     padding: 10px;
+    text-align: center;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+span:hover {
+    background-color:#7e4d1f;
+}
+
+span:active {
+    background-color:#3d250f;
 }
 
 #content {
-    height: 650px;
+    height: 100vh;
     width: 75%;
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
+    justify-content:space-evenly;
     align-items: center;
     color: white;
     background-color: #94271b;
+    box-shadow: -60px 0px 100px -90px #000000, 60px 0px 100px -90px #000000;
+
 }
 
 #burrito-image {
-    height: 400px;
+    height: 450px;
     width: auto;
-    border-radius: 30px;
+    /* border-radius: 30px; */
 }
 
 #headline {
+    font-size: 30px;
+}
 
+#menu {
+    height: 600px;
+    width: auto;
 }
 

@@ -1,7 +1,8 @@
 function addMenu() {
-    const menuDiv = document.createElement("div");
-    menuDiv.textContent = "Burrito: $5.99";
-    return menuDiv;
+    const menuImg = document.createElement("img");
+    menuImg.id = "menu";
+    menuImg.src = "./img/menu.png";
+    return menuImg;
 };
 
 function loadMenu() {

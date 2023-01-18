@@ -8,7 +8,7 @@ function addImage() {
 function addHeadline() {
     const headlineDiv = document.createElement("div");
     headlineDiv.id = "headline";
-    headlineDiv.textContent = "Cooking up your new burrito cravings";
+    headlineDiv.textContent = "Cooking up your new burrito cravings!";
     return headlineDiv;
 };
 
